@@ -1,0 +1,30 @@
+{
+    "name": "@srartkit-react/gatsby",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Saeed Kargosha",
+    "license": "MIT",
+    "dependencies": {
+        "@srartkit-react/styled-components": "^1.0.0",
+        "gatsby": "^2.29.1",
+        "gatsby-image": "^2.8.0",
+        "gatsby-plugin-manifest": "^2.9.0",
+        "gatsby-plugin-offline": "^3.7.0",
+        "gatsby-plugin-react-helmet": "^3.7.0",
+        "gatsby-source-filesystem": "^2.8.0",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-helmet": "^6.1.0"
+    },
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "start": "yarn run develop",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    },
+    "keywords": [
+        "gatsby"
+    ]
+}
